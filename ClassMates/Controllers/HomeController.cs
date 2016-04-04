@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ClassMates.Models;
 
 namespace ClassMates.Controllers
 {
@@ -10,6 +11,10 @@ namespace ClassMates.Controllers
     {
         public ActionResult Index()
         {
+            List<classmates> members  = new List<classmates>();
+            members.Add();
+
+
             return View();
         }
 
