@@ -15,9 +15,9 @@ namespace ClassMates.Controllers
             {
                 new ClassMate(1, "Seth Quaye", "Black", 5.11),
                 new ClassMate(2, "Brain Stickney", "Black", 5.5),
-                new ClassMate(2, "Zach Ballard", "Brown", 5.0),
+                new ClassMate(2, "Zach Ballard", "Brown", 5.4),
                 new ClassMate(2, "Trey", "Black", 5.2),
-                new ClassMate(2, "Kate", "Blonde", 5.0),
+                new ClassMate(2, "Kate", "Blonde", 5.2),
                 new ClassMate(2, "Tee", "Black", 5.3),
                 new ClassMate(2, "Kevin", "Black", 5.1),
             };
