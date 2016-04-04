@@ -11,18 +11,17 @@ namespace ClassMates.Controllers
     {
         public ActionResult Index()
         {
-
-            List<classmates> colleagues = new List<classmates>()
+            List<ClassMate> colleagues = new List<ClassMate>()
             {
-                new classmates(1, "Seth Quaye", "Black", 5.11),
-                new classmates(2, "Brain Stickney", "Black", 5.5),
-                new classmates(2, "Zach Ballard", "Brown", 5.0),
-                new classmates(2, "Trey", "Black", 5.2),
-                new classmates(2, "Kate", "Blonde", 5.0),
-                new classmates(2, "Tee", "Black", 5.3),
-                new classmates(2, "Kevin", "Black", 2.1),
+                new ClassMate(1, "Seth Quaye", "Black", 5.11),
+                new ClassMate(2, "Brain Stickney", "Black", 5.5),
+                new ClassMate(2, "Zach Ballard", "Brown", 5.0),
+                new ClassMate(2, "Trey", "Black", 5.2),
+                new ClassMate(2, "Kate", "Blonde", 5.0),
+                new ClassMate(2, "Tee", "Black", 5.3),
+                new ClassMate(2, "Kevin", "Black", 5.1),
             };
-            return View();
+            return View(colleagues);
         }
 
         public ActionResult About()
