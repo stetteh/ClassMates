@@ -8,7 +8,7 @@ namespace ClassMates.Models
 {
     public class ClassMate
     {
-        public ClassMate(int id, string name, string hair, double tall)
+        public ClassMate(int id, string name, string hair, float tall)
         {
             Id = id;
             Name = name;
@@ -18,6 +18,6 @@ namespace ClassMates.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string HairColor { get; set; }
-        public double Height { get; set; }
+        public float Height { get; set; }
     }
 }

@@ -14,13 +14,14 @@ namespace ClassMates.Controllers
         {
             List<ClassMate> colleagues = new List<ClassMate>()
             {
-                new ClassMate(1, "Seth Quaye", "Black", 5.11),
-                new ClassMate(2, "Brain Stickney", "Black", 5.6),
-                new ClassMate(2, "Zach Ballard", "Brown", 5.5),
-                new ClassMate(2, "Trey", "Black", 5.2),
-                new ClassMate(2, "Kate", "Blonde", 5.6),
-                new ClassMate(2, "Tee", "Black", 5.7),
-                new ClassMate(2, "Kevin", "Black", 5.6),
+                new ClassMate(1, "Seth Quaye", "Black", 5.11f),
+                new ClassMate(2, "Brain Stickney", "Black", 5.6f),
+                new ClassMate(3, "Zach Ballard", "Brown", 5.5f),
+                new ClassMate(4, "Trey", "Black", 5.2f),
+                new ClassMate(5, "Kate", "Blonde", 5.6f),
+                new ClassMate(6, "Tee", "Black", 5.7f),
+                new ClassMate(7, "Kevin", "Black", 5.6f),
+                new ClassMate(8, "Daniel", "Black", 5.20f)
             };
             return View(colleagues);
             
